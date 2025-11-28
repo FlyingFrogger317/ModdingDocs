@@ -7,7 +7,7 @@ nav_order: 2
 
 - A Windows / Linux / Mac device that you can code on
 - A Legitimate copy of Hollow Knight on PC (Steam / GoG / HumbleBundle)
-  - XBox / PS4 / Nintendo Switch versions do not work for our purposes.
+  - XBox / PS4 / Nintendo Switch versions do not work for our purposes.on
 - A copy of the [Hollow Knight Modding Api](https://github.com/hk-modding/api) binary (dll) files
   - Installing them through any modinstaller (e.g. [Lumafly](https://themulhima.github.io/Lumafly) or [Scarab](https://github.com/fifty-six/Scarab)) also works.
 - Visual Studio Community and .NET Framework 4.7.2
@@ -42,3 +42,12 @@ You're now done setting up your system for creating [your first Hollow Knight mo
 
 
 > **TODO:** Add a video here that goes over setting up and installing all of this
+### Alternate Setup for Linux
+
+The above instructions do not work for Linux, due to Visual Studio not being available. Instead, these instructions work:
+
+1. Download andd install [VS Code Community](https://code.visualstudio.com/Download) (any version, I used latest)
+2. Install [.NET Runtime and SDK](https://learn.microsoft.com/en-us/dotnet/core/install/linux), preferably from your package manager.
+3. In VS Code (hereafter referred to by its command 'code'), install the C# Dev Kit plugin
+  - Control+Shift+P, type "Extensions: Install Extensions", search C#, select C# dev kit
+4. Install the modding API, see above (recommended way is by using [Lumafly](https://themulhima.github.io/Lumafly/), and then launching the game modded)
